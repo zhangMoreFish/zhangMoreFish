@@ -18,3 +18,17 @@ git push origin --delete branchName
 git add filename.suffix
 8.删除文件 filename.suffix文件名称+后缀名 然后commit+push
 git rm filename.suffix
+9.暂存（解决pull后git无法自动merge）将本地修改暂存，pull后再重新合并 commit push
+git stash save 'comment'
+查看stash列表
+git stash list
+查看改动，查看第几个后面加 stash@{0}，从0开始，不加默认显示第一个
+git stash show
+应用某个存储，默认第一个，应用其他后面加 stash@{0}，从0开始
+git stash apply
+应用某个存储并删除，默认第一个，应用其他后面加 stash@{0}，从0开始
+git stash pop
+删除某个缓存，默认第一个，应用其他后面加 stash@{0}，从0开始
+git stash drop
+删除所有缓存的stash
+git stash clear
