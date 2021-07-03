@@ -16,7 +16,7 @@ git pull origin main:test
 git push origin --delete branchName
 8.添加文件 filename.suffix文件名称+后缀名 多个文件空格隔开，然后commit+push
 git add filename.suffix
-8.删除文件 filename.suffix文件名称+后缀名 然后commit+push
+8.删除文件(可以不加git) filename.suffix文件名称+后缀名 然后commit+push
 git rm filename.suffix
 9.暂存（解决pull后git无法自动merge）将本地修改暂存，pull后再重新合并 commit push
 git stash save 'comment'
