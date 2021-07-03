@@ -32,3 +32,5 @@ git stash pop
 git stash drop
 删除所有缓存的stash
 git stash clear
+10.移动文件 nacosNote.md 另一个文件夹note下
+mv nacosNote.md note/
