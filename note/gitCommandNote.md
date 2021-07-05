@@ -34,3 +34,4 @@ git stash drop
 git stash clear
 10.移动文件 nacosNote.md 另一个文件夹note下
 mv nacosNote.md note/
+11.
